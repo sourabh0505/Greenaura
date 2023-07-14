@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding-top: 2rem;
+    /* box-sizing: border-box; */
+}
+
+.imageslider{
+    width: 80%;
+    background-image: url("images/2.jpeg");
+    height: 30rem;
+    background-size: 100% 100%;
+    animation: changeBanner 20s linear infinite;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 1rem;
+}
+
+@keyframes changeBanner {
+    0%{
+        background-image: url("images/2.jpeg"); 
+    }
+
+    20%{
+        background-image: url("images/2.jpeg"); 
+    }
+
+    40%{
+        background-image: url("images/3.jpeg"); 
+    }
+
+    60%{
+        background-image: url("images/3.jpeg"); 
+    }
+
+    80%{
+        background-image: url("images/1.jpeg"); 
+    }
+
+    100%{
+        background-image: url("images/1.jpeg"); 
+    }
+}

@@ -1,0 +1,59 @@
+.books{
+    margin: 3rem 0;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 10rem;
+}
+
+.book-heading{
+    padding: 2rem 0 0;
+}
+
+
+.book-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.bookcard{
+    /* display: inline-block; */
+    max-width: 30%;
+    margin-top: 3rem;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+}
+
+.all-books{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center space-between;
+    padding-bottom: 4rem;
+}
+
+.book-btn{
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 0 8rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.book-title, .book-text{
+    padding: 1rem 1rem;
+    text-align: justify;
+}
+
+.book-text{
+    padding-bottom: 2rem;
+}
+
+.book-title{
+    text-align: center;
+}
+
+.book-btn:hover{
+    color: black;
+    cursor: pointer;
+}

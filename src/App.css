@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+@media(max-width: 1280px){
+    html{
+        font-size: 80%;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media(max-width: 1200px){
+    html{
+        font-size: 75%;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media(max-width: 1098px){
+    html{
+        font-size: 70%;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media(max-width: 998px){
+    html{
+        font-size: 55%;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media(max-width: 768px){
+    html{
+        font-size: 50%;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media(max-width: 660px){
+    html{
+        font-size: 40%;
+    }
+}
+
+@media(max-width: 540px){
+    html{
+        font-size: 25%;
+    }
+}
+
+@media(max-width: 414px){
+    html{
+        font-size: 22%;
+    }
+}
+
+@media(max-width: 375px){
+    html{
+        font-size: 20%;
+    }
+}
+
+@media(max-width: 280px){
+    html{
+        font-size: 12%;
+    }
+}
+
+@media(max-width: 500px){
+    .allcontainers{
+        display: block !important;
+        max-width: 100%;
+    }
+    .keyfeatures,.mission{
+        padding-top: 2rem;
+    }
+    .all-courses{
+        flex-direction: column;
+        align-items: center;
+    }
+    .course-heading{
+        text-align: center;
+    }
+    .coursecard{
+        padding-top: 2rem;
+    }
+    .course-btn{
+        margin: 0 9rem 2rem !important; 
+    }
+    .book-btn{
+        margin: 0 9rem 2rem !important; 
+    }
+    .all-books{
+        flex-direction: column;
+        align-items: center;
+    }
+    .book-heading{
+        text-align: center;
+    }
+    .bookcard{
+        padding-top: 2rem;
+    }
 }
