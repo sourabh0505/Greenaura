@@ -5,8 +5,7 @@ function Banner() {
   return (
     <div className="container">
         <div className='imageslider'> </div>
-        <div className="news">
-            
+        <div className="news">    
         </div>
     </div>
   )

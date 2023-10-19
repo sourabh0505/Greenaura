@@ -9,6 +9,10 @@
     padding: 2rem 0 0;
 }
 
+.course-heading > span{
+    font-weight: 300;
+}
+
 .coursecard{
     max-width: 30%;
     margin-top: 3rem;

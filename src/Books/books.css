@@ -31,10 +31,10 @@
 
 .book-btn{
     font-size: 1rem;
-    padding: 0.3rem;
+    padding: 0.5rem;
     margin: 0 8rem;
     margin-bottom: 2rem;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     border: none;
     background-color: green;
     color: white;
@@ -56,4 +56,5 @@
 .book-btn:hover{
     color: black;
     cursor: pointer;
+    transform: scale(1.1);
 }

@@ -38,6 +38,9 @@
     html{
         font-size: 25%;
     }
+    .allcontainers{
+        width: fit-content;
+    }
 }
 
 @media(max-width: 414px){
@@ -92,4 +95,4 @@
     .bookcard{
         padding-top: 2rem;
     }
-}
+} 

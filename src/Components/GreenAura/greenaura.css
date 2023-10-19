@@ -16,6 +16,18 @@
     text-align: center;
 }
 
+.whygreenaura > h3{
+    font-size: 1.5rem;
+}
+
+.keyfeatures > h3{
+    font-size: 1.5rem;
+}
+
+.mission > h3{
+    font-size: 1.5rem;
+}
+
 .logo1, .logo2, .logo3{
     max-width: 20rem;
     padding: 0 4rem 0 4rem;
@@ -26,5 +38,9 @@
     justify-content: center;
 }
 
+.desc1{
+    margin-top: 1rem;
+    font-weight: 450;
+}
 
 

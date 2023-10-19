@@ -1,0 +1,33 @@
+.Moto{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 6rem auto 4rem;
+    background-color: lightgreen;
+    padding: 4rem;
+}
+
+.app-slogan{
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+}
+
+.app-slogan > span:first-child{
+    color: brown;
+}
+
+.app-slogan > span:nth-child(3){
+    color: grey;
+}
+
+.app-slogan > span:nth-child(5){
+    color: darkgreen;
+}
+
+.Moto > h3{
+    color: darkgreen;
+    font-size: 1.7rem;
+    margin: 2rem 0 0rem;
+}
