@@ -4,7 +4,7 @@ import './courses.css'
 function Courses() {
 return (
 <div className='courses' id='courses'>
-    <h1 className='course-heading'>Quizzes Here! <span>(Get Certificate Over Completion)</span></h1>
+    <h1 className='course-heading'>Courses Here! <span>(Get Certificate Over Completion)</span></h1>
 
     <div className="all-courses">
     <div className='coursecard'>
