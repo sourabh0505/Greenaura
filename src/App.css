@@ -101,4 +101,8 @@
     .Gallery-section{
         justify-content: center;
     }
+    .course-quiz-btn{
+        display: block !important;
+        margin-left: 3rem;
+    }
 } 
