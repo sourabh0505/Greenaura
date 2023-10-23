@@ -6,8 +6,9 @@
 }
 
 .imageslider{
+    object-fit: cover;
     width: 80%;
-    background-image: url("images/2.jpeg");
+    background-image: url("images/img-1.jpg");
     height: 30rem;
     background-size: 100% 100%;
     animation: changeBanner 20s linear infinite;
@@ -17,26 +18,26 @@
 
 @keyframes changeBanner {
     0%{
-        background-image: url("images/2.jpeg"); 
+        background-image: url("images/img-1.jpg"); 
     }
 
     20%{
-        background-image: url("images/2.jpeg"); 
+        background-image: url("images/img-2.jpg"); 
     }
 
-    40%{
-        background-image: url("images/3.jpeg"); 
+    30%{
+        background-image: url("images/img-2.jpg"); 
     }
 
-    60%{
-        background-image: url("images/3.jpeg"); 
+    50%{
+        background-image: url("images/img-3.jpg"); 
     }
 
-    80%{
-        background-image: url("images/1.jpeg"); 
+    70%{
+        background-image: url("images/img-4.jpg"); 
     }
 
     100%{
-        background-image: url("images/1.jpeg"); 
+        background-image: url("images/img-1.jpg"); 
     }
 }

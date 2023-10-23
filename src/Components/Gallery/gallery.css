@@ -1,0 +1,23 @@
+.Gallery-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery-images{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery-images > img{
+    min-width: 21rem;
+    max-height: 24rem;
+    margin: 4rem 3rem 4rem 0rem;
+}
+
+.gallery-container > h1{
+    font-size: 2rem;
+}
+
+

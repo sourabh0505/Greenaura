@@ -95,4 +95,10 @@
     .bookcard{
         padding-top: 2rem;
     }
+    .gallery-images{
+        flex-flow: column wrap !important;
+    }
+    .Gallery-section{
+        justify-content: center;
+    }
 } 
